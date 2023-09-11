@@ -15,7 +15,7 @@ for(let i = 1; i <= 100; i++){
     square.textContent = 'Buzz';
   }
 
-  if(!(i % 15)){
+  if((!(i % 3)) && (!(i % 5))){
     square.classList.add('red');
     square.textContent = 'Fizzbuzz';
   }
