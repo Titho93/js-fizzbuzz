@@ -4,8 +4,10 @@ for(let i = 1; i <= 100; i++){
   square.classList.add('square');
   square.append(i);
 
+
   if(!(i % 3)){
     square.classList.add('green');
+    square.textContent = 'Fizz'
   }
 
   if(!(i % 5)){
