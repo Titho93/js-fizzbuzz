@@ -1,4 +1,7 @@
-
+.container-t {
+  padding-top: 40px;
+  background-color: #123B4C;
+}
 
 .square{
   display: flex;
@@ -12,10 +15,6 @@
   color: black;
 }
 
-.darkblue {
-  background-color: #123B4C;
-}
-
 .green {
   background-color: #63D7A1;
 }
@@ -26,4 +25,10 @@
 
 .red {
   background-color: #ED4B6E;
+}
+
+.title {
+  color: white;
+  font-size: 60px;
+  text-align: center;
 }
