@@ -1,3 +1,5 @@
+
+
 .square{
   display: flex;
   justify-content: center;
@@ -6,18 +8,22 @@
   height: 100px;
   margin: 10px;
   font-size: 25px; 
-  background-color: lightblue;
-  color: white;
+  background-color: #3289B2;
+  color: black;
+}
+
+.darkblue {
+  background-color: #123B4C;
 }
 
 .green {
-  background-color: green;
+  background-color: #63D7A1;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #FBD066;
 }
 
 .red {
-  background-color: red;
+  background-color: #ED4B6E;
 }

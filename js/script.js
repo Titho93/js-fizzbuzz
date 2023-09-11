@@ -7,15 +7,17 @@ for(let i = 1; i <= 100; i++){
 
   if(!(i % 3)){
     square.classList.add('green');
-    square.textContent = 'Fizz'
+    square.textContent = 'Fizz';
   }
 
   if(!(i % 5)){
     square.classList.add('yellow');
+    square.textContent = 'Buzz';
   }
 
   if(!(i % 15)){
     square.classList.add('red');
+    square.textContent = 'Fizzbuzz';
   }
   
   squareContainer.append(square);
