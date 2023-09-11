@@ -3,13 +3,13 @@ for(let i = 1; i <= 100; i++){
   const square = document.createElement('div');
   square.classList.add('square');
 
-  if ((!(i % 3)) && (!(i % 5))){
+  if ((i % 3 == 0) && (i % 5 == 0)){
     square.classList.add('red');
     square.append('Fizzbuzz');
-  }else if(!(i % 3)){
+  }else if(i % 3 == 0){
     square.classList.add('green');
     square.append('Fizz');
-  }else if(!(i % 5)){
+  }else if(i % 5 == 0){
     square.classList.add('yellow');
     square.append('Buzz');
   }else {
