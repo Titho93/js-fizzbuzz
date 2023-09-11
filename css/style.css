@@ -8,5 +8,16 @@
   font-size: 25px; 
   background-color: lightblue;
   color: white;
-  
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
 }
